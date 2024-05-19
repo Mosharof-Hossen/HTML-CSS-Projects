@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contactFormSection {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.contactFullForm {
+    width: 300px;
+    border: 1px solid black;
+    
+}
+.contactFullForm img {
+    width: 25%;
+    background-color: burlywood;
+}
+.imageDiv{
+    text-align: center;
+    background-color: #DEB887;
+    padding: 7px;
+}
+.formdescription{
+    text-align: center;
+    padding: 10px;
+}
+.formdescription > p{
+    font-size: x-small;
+}
+.formInput  input , textarea {
+    width: 100%;
+    margin: 5px 0px;
+}
+.formInput {
+    padding: 20px;
+    color: #51B2BE;
+}
+.formInput button{
+    padding: 4px;
+    color: white;
+    background-color: #F194AE;
+    border: none;
+    border-radius: 5px;
+}
