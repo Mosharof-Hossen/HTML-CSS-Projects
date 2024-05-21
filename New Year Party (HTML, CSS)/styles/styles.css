@@ -183,80 +183,96 @@ main {
     align-items: center;
     margin: 50px 0px;
 }
-.best-offer{
+
+.best-offer {
     width: 30%;
     margin-left: 15px;
 }
-.best-offer > h2{
+
+.best-offer>h2 {
     font-weight: bolder;
     font-size: 30px;
 }
-.best-offer > p{
+
+.best-offer>p {
     font-weight: bold;
 }
-.best-offer span{
+
+.best-offer span {
     font-size: smaller;
     font-weight: normal;
     color: rgb(76, 76, 76);
 }
-.celebrate-img{
+
+.celebrate-img {
     width: 40%;
     align-items: center;
     text-align: center;
 }
-.celebrate-img > img{
+
+.celebrate-img>img {
     width: 80%;
     border: #FF0000 10px solid;
-    border-radius: 50% ;
+    border-radius: 50%;
 }
-.happy-new-year{
+
+.happy-new-year {
     width: 30%;
 }
-.happy-new-year h3{
+
+.happy-new-year h3 {
     font-size: 25px;
 }
-.happy-new-year span{
+
+.happy-new-year span {
     font-size: smaller;
-    color:rgb(76, 76, 76); 
+    color: rgb(76, 76, 76);
 }
-.happy-new-year img{
+
+.happy-new-year img {
     width: 40%;
 }
 
 /* what is functional */
 
-.what-is-function{
+.what-is-function {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.what-is-function > .content{
+
+.what-is-function>.content {
     width: 1000px;
     text-align: center;
 }
-.content > p{
+
+.content>p {
     font-weight: bold;
     margin-bottom: 0px;
 }
-.content > h1{
+
+.content>h1 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 15px;
 }
-.content p > span{
-    color:rgb(76, 76, 76); 
+
+.content p>span {
+    color: rgb(76, 76, 76);
     font-size: smaller;
+    font-weight: normal;
 }
 
 /* discount */
-.discount{
+.discount {
     position: relative;
     display: flex;
     width: 100%;
     height: 650px;
-    background-image: url("../images/Rectangle\ 2.png") , url("../images/Rectangle\ 1.png");
+    background-image: url("../images/Rectangle\ 2.png"), url("../images/Rectangle\ 1.png");
     background-repeat: no-repeat;
-    background-position: bottom  , top right;
+    background-position: bottom, top right;
+    margin-bottom: 100px;
 }
 
 .image-container {
@@ -265,16 +281,134 @@ main {
     justify-content: flex-end;
     align-items: center;
 }
-.first-image{
+
+.first-image {
     width: 50%;
     align-items: center;
 }
-.second-image{
+
+.second-image {
     width: 50%;
     align-items: center;
     text-align: center;
 }
-.first-image > img{
+
+.first-image>img {
     display: block;
     width: 650px;
+}
+
+/* Portfolio */
+
+.awesome-portfolio {
+    padding-left: 50px;
+}
+
+.awesome-portfolio p {
+    margin-bottom: 0px;
+}
+
+.awesome-portfolio h2 {
+    margin: 5px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.awesome-portfolio span {
+    font-size: smaller;
+    color: rgb(76, 76, 76);
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items-container .item {
+    width: 30%;
+    margin: 20px 0px;
+}
+
+.item>img {
+    width: 100%;
+}
+
+/* Subscribe */
+
+.subscribe {
+    background-color: #fff2f2;
+    padding: 50px 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.subscribe>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+
+.subscribe>p {
+    font-size: smaller;
+    color: rgb(76, 76, 76);
+    margin: 10px 0px;
+}
+
+form input{
+    width: 300px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+form button{
+    padding: 10px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    padding: 60px 130px;
+    background-color: #070211;
+    color: white;
+    
+}
+.address-contact{
+    display: flex;
+
+}
+.address-contact > div{
+    width: 50%;
+}
+.contact{
+    margin-left: 200px;
+}
+.contact a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+.contact img{
+    width: 15px;
+}
+
+footer hr{
+    margin:25px
+}
+.social-media{
+    text-align: center;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.copy-right p{
+    width: 50%;
 }
