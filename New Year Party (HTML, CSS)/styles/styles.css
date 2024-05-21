@@ -1,0 +1,224 @@
+/* Global */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+    color: #FF0000;
+}
+
+main {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.header {
+    position: relative;
+    height: 600px;
+    max-width: 1320px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.header .header-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.header-content>h4 {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-content>h2 {
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+/* Offer section */
+
+.offer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-content {
+    max-width: 800px;
+
+}
+
+.offer-content h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.offer-content p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.offer-content h3 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.offer-content>image {
+    max-width: 800px;
+}
+
+/* mid night party */
+
+.mid-night-party {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    max-width: 1320px;
+    margin: 50px 0px;
+    color: white;
+    background-image: url("../images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mid-night-party::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.mid-night-party,
+.for-background {
+    position: relative;
+    z-index: 2;
+}
+
+.for-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-night-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-content {
+    width: 60%;
+    margin-left: 60px;
+    color: white;
+}
+
+.party-content h2 {
+    font-size: 50px;
+}
+
+.party-content a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.party-content p {
+    font-size: x-small;
+}
+
+.mid-night-content img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+/* Location and time */
+.location {
+    text-align: center;
+    background: linear-gradient(to top, #ffffff, #ffe6e6);
+    padding: 50px;
+}
+
+.location>button {
+    background-color: #FF0000;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Middle Section */
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+.best-offer{
+    width: 30%;
+    margin-left: 15px;
+}
+.best-offer > h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.best-offer > p{
+    font-weight: bold;
+}
+.best-offer span{
+    font-size: smaller;
+    font-weight: normal;
+    color: rgb(76, 76, 76);
+}
+.celebrate-img{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+.celebrate-img > img{
+    width: 80%;
+    border: #FF0000 10px solid;
+    border-radius: 50% ;
+}
+.happy-new-year{
+    width: 30%;
+}
+.happy-new-year h3{
+    font-size: 25px;
+}
+.happy-new-year span{
+    font-size: smaller;
+    color:rgb(76, 76, 76); 
+}
+.happy-new-year img{
+    width: 40%;
+}
