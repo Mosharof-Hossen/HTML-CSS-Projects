@@ -20,6 +20,22 @@ body {
     border-radius: 5px;
 }
 
+/* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav  a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
 /* Header File */
 .header {
     display: flex;
@@ -160,4 +176,15 @@ body {
     padding: 5xp;
     width: 300px;
     margin-top: 20px;
+}
+
+footer{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 50px ;
+}
+footer div{
+    width: 600px;
+    margin: 0 auto;
 }
